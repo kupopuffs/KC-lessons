@@ -32,8 +32,13 @@
 * That downloads your project, now we can open it in Visual Studio Code and make changes
 
 # Lesson 2 - Make changes and commit them
-* 
-
+* Open your folder in VSC, make a change
+* In Terminal, type `git status` to see your changes
+  * `git diff` to see the changes in Terminal
+* If you like your change, type `git add <file>` to add it to your next commit
+* `git commit -m "<message about your changes>` to commit your changes
+  * you can see the change when you do `git log`
+* `git push origin main` to push your change online
 
 # Terminal commands
 * `cd` change directory to your home
@@ -44,7 +49,27 @@
 
 # Terminal Shortcuts
 * pressing `Tab` in Terminal will make it guess the rest of what you're typing
+* pressing `Up Arrow` in Termianl will make it repeat a previous command
+  * keep pressing `Up Arrow` to go deeper into your history
 
 # Git commands
 1. `git clone <url to project>` to copy your git repo to your folder
-2. `git log` to list a log of your changes
+1. `git log` to list a log of your changes
+1. `git status` to list your modified files (and other info)
+1. `git diff` to show what your changed
+    1. green is your current changes
+    1. red is your overwritten changes
+1. `git add <file>` to add your file
+1. `git add .` to add all changed files
+1. `git pull` to get the latest changes from Online
+
+# Example flow to make change
+In your Terminal,
+1. `cd` to change to your home directory
+1. `cd workspace` to change to your workspace directory
+1. `git clone https://github.com/KCCodes13/Emerges-SFU-KC-Portfolio-FINAL.git`
+1. `cd Emerges-SFU-KC-Portfolio-FINAL` to change your Terminal's directory
+1. make changes in Visual Studio Code
+1. `git add .` to add all changes
+1. `git commit -m <some message>` to commit your changes to your history
+1. `git push` to upload
