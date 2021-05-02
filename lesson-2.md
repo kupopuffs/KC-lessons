@@ -17,6 +17,15 @@
   * you need both `position: relative` and `z-index: <i>`
   * negative `<i>s` are on bottom, bigger `<i>s` are on top
   * for more info, google `how to have img behind div`
+* for mobile-specific styling,
+  * `@media (max-width: 800px) { <RULES HERE> }` for styling screens less than 800px
+* you can do fancy selection for css
+  * e.g. `.boxed2 h1` applies to all `<h1>` in your `boxed2` classes
+
+# To see your page in mobile (Chrome)
+* Settings -> More Tools -> Developer Tools
+  * or, right-click inspect
+* Click on the phone icon in the top left of the new toolbar.
 
 ### Fixed div on window, regardless of scrolling?
 * What I google `css keep div fixed on screen`
