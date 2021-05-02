@@ -1,0 +1,1 @@
+* To see a lesson, click on the file in github
